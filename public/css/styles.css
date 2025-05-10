@@ -4,3 +4,135 @@
 *:after {
   box-sizing: border-box;
 }
+
+body, html {
+  max-width: 420px;
+  width: 100%;
+  height: 100%;
+  margin-left: 5px;
+}
+
+span a{
+  padding-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+#tools {
+  position:absolute;
+  right: 5%;
+  top: 2%;
+  
+}
+
+#tools a {
+  text-decoration: none;
+  color: gray;
+}
+
+nav {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+}
+
+nav ul li{
+  display: inline;
+  padding: 10px;
+  align-content:space-between ;
+  color: white;
+  font-size: large;
+
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 80%; 
+  height: 80%; 
+  object-fit: cover; 
+  margin-bottom: 20px;
+}
+
+.herolabel {
+  position:absolute;
+  top: 30%;
+  left: 15%;
+  background-color: rgba(255, 255, 255, 0.7) ;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  color:dodgerblue;
+  
+}
+
+.herolabel h4 {
+  font-weight: bold;
+  margin: 5px auto;
+}
+
+.herolabel p {
+  margin: 0 auto;
+}
+
+.herolabel picture img {
+  border-radius: 5px;
+}
+
+.container {
+  margin-bottom: 0 auto;
+  margin-top: 40px;
+}
+
+.container ul{
+  padding-left: 20px;
+}
+
+.container ul li {
+  padding: 5px;
+  font-size: large;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 10px;
+  width: 100%;
+  justify-items: center;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  align-content: flex-start;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column;
+  border-radius: 5px;
+  
+}
+
+.card img {
+  background-color: dodgerblue;
+  padding: 20px;
+  border-radius: 5px;
+  border-style:groove;
+
+}
+
+footer {
+  padding: 20px;
+  color: grey;
+}
